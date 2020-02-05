@@ -334,6 +334,7 @@ GameObject:
   m_Component:
   - component: {fileID: 952796088}
   - component: {fileID: 952796087}
+  - component: {fileID: 952796089}
   m_Layer: 0
   m_Name: bg1
   m_TagString: Untagged
@@ -405,3 +406,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &952796089
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 952796086}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -9.591132, y: -5.400144}
+  - {x: -9.59893, y: 5.4020867}
+  - {x: 9.594731, y: 5.3984337}
+  - {x: 9.595458, y: -5.398165}
+  - {x: -9.588074, y: -5.3999863}
